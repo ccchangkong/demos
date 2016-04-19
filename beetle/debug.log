@@ -1,0 +1,15 @@
+[0714/203524:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0714/203537:INFO:CONSOLE(1)] "Uncaught ReferenceError: google is not defined", source: http://127.0.0.1:8020/beetle/home-01.html (1)
+[0714/203538:INFO:CONSOLE(1)] "Uncaught ReferenceError: google is not defined", source: http://127.0.0.1:8020/beetle/home-01.html (1)
+[0714/203600:INFO:CONSOLE(1)] "Uncaught ReferenceError: google is not defined", source: http://127.0.0.1:8020/beetle/blog-list-sidebar.html (1)
+[0714/203607:INFO:CONSOLE(1)] "Uncaught ReferenceError: google is not defined", source: http://127.0.0.1:8020/beetle/contact.html (1)
+[0714/203616:INFO:CONSOLE(1)] "Uncaught ReferenceError: google is not defined", source: http://127.0.0.1:8020/beetle/home-01.html (1)
+[0723/130941:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0723/130949:INFO:CONSOLE(1)] "Uncaught ReferenceError: google is not defined", source: http://127.0.0.1:8020/beetle/home-01.html (1)
+[0116/021157:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0116/021201:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0116/021203:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0116/021203:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0116/021203:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0116/021212:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0116/021212:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2

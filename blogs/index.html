@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+	</head>
+
+	<body>
+		<div id="header">
+			<div class="logo">logo</div>
+			<div class="member">个人中心
+				<ul class="member_ul">
+					<li><a href="###">发文</a></li>
+					<li><a href="##">11</a></li>
+					<li><a href="###">111</a></li>
+					<li><a href="##">111</a></li>
+					<li>5</li>
+				</ul>
+			</div>
+			<div class="reg">
+				<h2>注册</h2></div>
+			<div class="login">
+				<h2>登陆</h2>
+			</div>
+			<div class="info">hello</div>
+		</div>
+		<div id="reg">
+			<h2>注册<img src="img/126.png" alt="" class="close" alt="222"></h2>
+			<form name="reg">
+				<dl>
+					<dd>用户名：&nbsp;
+						<input type="text" name="user" class="text" placeholder="XXX" />
+						<span class="info info_user">请输入用户名</span>
+						<span class="error error_user">输入错误</span>
+						<span class="succ succ_user">可用</span>
+						<span class="loading">正在检测用户名</span>
+					</dd>
+					<dd>密&nbsp;码：&nbsp;
+						<input type="text" name="pass" class="text" />
+						<span class="info info_pass">
+							<p>安全级别 <strong class="s s1">©</strong><strong class="s s2">©</strong><strong class="s s3">©</strong><strong class="s s4"></strong></p>
+							<p><strong class="q1">?</strong>字符</p>
+							<p><strong class="q2">?</strong>大小写</p>
+							<p><strong class="q3">?</strong>两种类型</p>
+						</span>
+						<span class="error error_pass">输入错误</span>
+						<span class="succ succ_pass">可用</span>
+					</dd>
+					<dd>密码确认：
+						<input type="password" name="notpass" class="text" />
+						<span class="info info_notpass">请再次输入密码</span>
+						<span class="error error_notpass">不一致</span>
+						<span class="succ succ_notpass">可用</span>
+					</dd>
+					<dd>提&nbsp;问：&nbsp;
+						<select name="ques">
+							<option value="0">----请选择----</option>
+							<option value="1">----111----</option>
+							<option value="2">----222----</option>
+							<option value="3">----333----</option>
+							<option value="4">----444----</option>
+						</select>
+						<span class="error error_ques" style="top: 123px;left: 295px;display: none;">未选择</span>
+					</dd>
+					<dd>回&nbsp;答：&nbsp;
+						<input type="text" name="ans" class="text" />
+						<span class="info info_ans">2-32</span>
+						<span class="error error_ans">chongshu!</span>
+						<span class="succ succ_ans">可用</span>
+					</dd>
+					<dd>电子邮件：
+						<input type="text" name="email" class="text" autocomplete="off" />
+						<span class="info info_email">请输入电子邮件</span>
+						<span class="error error_email">chongshu!</span>
+						<span class="succ succ_email">可用</span>
+						<ul class="all_email">
+							<li><span></span>@qq.com</li>
+							<li><span></span>@163.com</li>
+							<li><span></span>@sohu.com</li>
+							<li><span></span>@sina.com</li>
+							<li><span></span>@gmail.com</li>
+						</ul>
+					</dd>
+					<dd class="birthday">生&nbsp;日：&nbsp;
+						<select name="year">
+							<option value="0">--请选择--</option>
+						</select>年
+						<select name="month">
+							<option value="0">--请选择--</option>
+						</select>月
+						<select name="day">
+							<option value="0">--请选择--</option>
+						</select>日
+						<span class="error error_birthday" style="top: 241px;left: 350px;display: none;">未选择</span>
+					</dd>
+					<dd style="height: 105px;"><span style="vertical-align:85px ;">备&nbsp;注:</span>&nbsp;
+						<textarea name="ps" rows="" cols=""></textarea>
+					</dd>
+					<dd style="padding: 0 0 0 320px;display: block;" class="ps">还可以输入 <strong class="num">200</strong>字</dd>
+					<dd style="padding: 0 0 0 320px;display: none;" class="ps">已超过 <strong class="num"></strong>字， <span class="clear">清尾</span></dd>
+					<dd style="padding: 0 0 0 320px;">
+						<input type="button" class="submit" value="" name="sub" />
+					</dd>
+				</dl>
+			</form>
+		</div>
+		<div id="login">
+			<h2><img src="img/126.png" alt="" class="close">网站登陆</h2>
+			<form name="login">
+				<div class="info"></div>
+				<div class="user">账号：
+					<input type="text" name="user" class="text">
+				</div>
+				<div class="pass">密码：
+					<input type="password" name="pass" class="text">
+				</div>
+				<div class="button">
+					<input type="button" class="submit" value="" name="sub" />
+				</div>
+				<div class="other">qita</div>
+			</form>
+		</div>
+		<div id="blog">
+			<h2><img src="img/126.png" alt="" class="close" alt="222">blog</h2>
+			<div class="info"></div>
+			<form name="blog">
+				<dl>
+					<dd>标题：&nbsp;
+						<input type="text" name="title" class="title" placeholder="情输入标题" /> (*不可为空)
+					</dd>
+					<dd><span style="vertical-align:85px ;">内&nbsp;容:</span>&nbsp;
+						<textarea name="connet" class="connet"></textarea>
+						(*不可为空)
+					</dd>
+					<dd style="padding: 0 0 0 320px;">
+						<input type="button" class="submit" value="" name="sub" />
+					</dd>
+				</dl>
+			</form>
+		</div>
+		<div id="skin">
+			<h2><img src="img/126.png" alt="" class="close"/>更换皮肤</h2>
+			<div class="skin_bg">
+				
+			</div>
+			<!--<dl>
+				<dt><img src="img/02.jpg"/></dt>
+				<dd>skin1</dd>
+			</dl>
+			<dl>
+				<dt><img src="img/03 (19).jpg"/></dt>
+				<dd>skin2</dd>
+			</dl>-->
+		</div>
+		<div id="nav">
+			<ul class="about">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<ul class="black">
+				<li>11111</li>
+				<li>221111</li>
+				<li>331111</li>
+				<li>441111</li>
+				<li>551111</li>
+			</ul>
+			<div class="nav_bg">
+				<ul class="white">
+					<li>11111</li>
+					<li>221111</li>
+					<li>331111</li>
+					<li>441111</li>
+					<li>551111</li>
+				</ul>
+			</div>
+		</div>
+		<div id="main">
+			<div id="sidebar">
+				<h2>教育1</h2>
+				<ul>
+					<li><a href="">11111</a></li>
+					<li><a href="">222222</a></li>
+					<li><a href="">33333333</a></li>
+					<li><a href="">44444444</a></li>
+					<li><a href="">55555</a></li>
+				</ul>
+				<h2>教育2</h2>
+				<ul>
+					<li><a href="">11111</a></li>
+					<li><a href="">222222</a></li>
+					<li><a href="">33333333</a></li>
+					<li><a href="">44444444</a></li>
+					<li><a href="">55555</a></li>
+				</ul>
+				<h2>教育3</h2>
+				<ul>
+					<li><a href="">11111</a></li>
+					<li><a href="">222222</a></li>
+					<li><a href="">33333333</a></li>
+					<li><a href="">44444444</a></li>
+					<li><a href="">55555</a></li>
+				</ul>
+			</div>
+			<div id="index">
+				<div class="content">
+					<h2>title</h2>
+					<p>main</p>
+				</div>
+				<div class="content">
+					<h2>title</h2>
+					<p>main</p>
+				</div>
+				<div class="content">
+					<h2>title</h2>
+					<p>main</p>
+				</div>
+			</div>
+			<div id="banner">
+				<img src="img/02.jpg" alt="1" />
+				<img src="img/03 (19).jpg" alt="2" />
+				<img src="img/05 (5).jpg" alt="3" />
+				<ul>
+					<li>@</li>
+					<li>@</li>
+					<li>@</li>
+				</ul>
+				<span>
+					
+				</span>
+				<strong>
+				轮播器
+				</strong>
+			</div>
+			<div id="photo">
+				<dl>
+					<dt><img class="wait_load" xsrc="img/02.jpg" src="img/AjaxLoader.gif" bsrc="img/02.jpg"/></dt>
+					<dd>延迟</dd>
+				</dl>
+				<dl>
+					<dt><img class="wait_load" src="img/AjaxLoader.gif" xsrc="img/03 (19).jpg" bsrc="img/03 (19).jpg"/></dt>
+					<dd>延迟</dd>
+				</dl>
+				<!--<dl>
+					<dt><img src="img/AjaxLoader.gif"/></dt>
+					<dd>延迟</dd>
+				</dl>-->
+			</div>
+		</div>
+		<div id="photo_big">
+			<h2>注册<img src="img/126.png" alt="" class="close" alt="222">yujiazai</h2>
+			<div class="big">
+				<img src="img/AjaxLoader.gif" />
+				<strong class="sl">&lt;</strong>
+				<strong class="sr">&gt;</strong>
+				<span class="left"></span>
+				<span class="right"></span>
+				<em class="index"></em>
+			</div>
+		</div>
+		<div id="footer">
+			<p>cc</p>
+		</div>
+		<div id="loading">
+			<p>加载中</p>
+		</div>
+		<div id="success">
+			<p>成功</p>
+		</div>
+		<div id="block"><a href="#">返回</a></div>
+		<div id="screen"></div>
+	<script type="text/javascript" src="js/tool.js">
+		</script>
+		<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript" src="js/base_drag.js"></script>
+		<script src="js/base_form.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/demo2.js"></script>
+		<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>bootstrap</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body data-spy="scroll" data-target="#myScrollspy">
+		<nav class="navbar navbar-default navbar-fixed-top" style="height: 50px;">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand logo"><img src="img/18.png" /></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+						<li><a href="info.html"><span class="glyphicon glyphicon-list "></span> 资讯</a></li>
+						<li><a href="case.html"><span class="glyphicon glyphicon-fire "></span> 案例</a></li>
+						<li class="active"><a href="about.html"><span class="glyphicon glyphicon-question-sign "></span> 关于</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+
+		<div class="jumbotron">
+			<div class="container">
+				<hgroup>
+					<h1>关于</h1>
+					<h4>本公司的介绍...</h4>
+				</hgroup>
+			</div>
+		</div>
+
+		<div id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 hidden-sm hidden-xs" id="myScrollspy">
+						<ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="150">
+							<li class="active"><a href="#section-1">公司介绍</a></li>
+							<li><a href="#section-2">加入我们</a></li>
+							<li><a href="#section-3">联系方式</a></li>
+						</ul>
+						<!--<div class="list-group" data-spy="affix" data-offset-top = "150">
+							<a href="#1" class="list-group-item">1.公司介绍</a>
+							<a href="#2" class="list-group-item">2.加入我们</a>
+							<a href="#3" class="list-group-item">3.联系方式</a>
+						</div>-->
+					</div>
+					<div class="col-md-9 about">
+						<h3 id="section-1">公司介绍</h3>
+						<p>方法一：你定死表格的宽度，即给表格一个宽度值（是数值，不是百分比） ... 方法二：强制不换行 div{//white-space：不换行;normal 默认;nowrap强制在同一行内... 方法三：自动换行 div{ word-wrap: break-word; //word-break设置强行换行;normal </p>
+
+						<h3 id="section-2">加入我们</h3>
+						<p>方法一：你定死表格的宽度，即给表格一个宽度值（是数值，不是百分比） ... 方法二：强制不换行 div{//white-space：不换行;normal 默认;nowrap强制在同一行内... 方法三：自动换行 div{ word-wrap: break-word; //word-break设置强行换行;normal </p>
+
+						<h3 id="section-3">联系方式</h3>
+						<p>方法一：你定死表格的宽度，即给表格一个宽度值（是数值，不是百分比） ... 方法二：强制不换行 div{//white-space：不换行;normal 默认;nowrap强制在同一行内... 方法三：自动换行 div{ word-wrap: break-word; //word-break设置强行换行;normal </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer" class="text-muted">
+			<div class="container">
+				<p>111|222|333</p>
+				<p>cc长空</p>
+			</div>
+		</footer>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js "></script>
+		<script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+	</body>
+
+</html>
